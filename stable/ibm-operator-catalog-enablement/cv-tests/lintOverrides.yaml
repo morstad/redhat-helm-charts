@@ -1,0 +1,27 @@
+overrides:
+- rule: NoNamespace
+  reason: "Catalog must be deployed to openshift-marketplace namespace for global catalog"
+- rule: RequiredMetadataLabelsDefined
+  reason: "Default metadata labels are NA for catalogsource"
+- rule: HelmTestExists
+  reason: "There is no product install to test - only catalogsources"
+- rule: NoClusterAdminRequired
+  reason: "CatalogSources required cluster admin - authority required is documened in README.md"
+- rule: AppAndChartVersionsDoNotMatch
+  reason: "First version of chart"
+- rule: ChartUsesSCH
+  reason: "Simple chart to install catalogsources - no need for SCH"
+- rule: PodDisruptionBudgetInReadme
+  reason: "No pods are deployed by this chart" 
+- message: "description is more than 80 characters which may be too long to display properly in the catalog"
+  reason: "HELM 3 charts will NOT be displayed in ICP catalog and therefore don't have this limitation - linter change pending"
+- message: "hyperlinks not allowed in description"
+  reason: "HELM 3 charts will NOT be displayed in ICP catalog and therefore don't have this limitation - linter change pending"
+- message: "but no manifest.yaml"
+  reason: "Manifest.yaml is being sunset in favor of resource.yaml which was provided"
+- rule: InstallTestExists
+  reason: "There is no product install to test - only catalogsource"
+- rule: AppTestExists
+  reason: "There is no product install to test - only catalogsource"
+- rule: CustomPodSecurityInReadme
+  reason: "No pod security policy is required to install this chart - default setup by OpenShift for catalogs is required"
