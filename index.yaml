@@ -3,7 +3,7 @@ entries:
   ibm-cpq-prod:
   - apiVersion: v2
     appVersion: 10.0.0.6
-    created: "2020-06-21T19:42:05.288618-05:00"
+    created: "2020-06-21T20:06:00.920654-05:00"
     description: |-
       IBM Sterling Configure, Price, Quote (CPQ) solution enables you to quickly configure, price, quote and order the right products and services.\n
       To sell competitively in today’s multichannel environment, organizations need a way to easily manage product and service configuration and pricing rules that allow prospects, customers, sales staff, call center representatives and Business Partners to quickly find, configure and order the right products and services.\n
@@ -45,7 +45,7 @@ entries:
   ibm-object-storage-plugin:
   - apiVersion: v2
     appVersion: 1.1.4
-    created: "2020-06-21T19:42:05.29014-05:00"
+    created: "2020-06-21T20:06:00.930055-05:00"
     description: "Chart for deploying ibmcloud object storage plugin.\nIBM Cloud Object
       Storage is persistent, highly available storage \nthat you can mount to apps
       that run in a Kubernetes cluster by using \nthe IBM Cloud Object Storage plug-in.
@@ -74,7 +74,7 @@ entries:
   ibm-oms-ent-prod:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-06-21T19:42:05.300645-05:00"
+    created: "2020-06-21T20:06:00.955876-05:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -112,7 +112,7 @@ entries:
   ibm-oms-pro-prod:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-06-21T19:42:05.311109-05:00"
+    created: "2020-06-21T20:06:00.968142-05:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -150,7 +150,7 @@ entries:
   ibm-operator-catalog-enablement:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-06-21T19:42:05.312534-05:00"
+    created: "2020-06-21T20:06:00.97097-05:00"
     description: |
       IBM Operator Catalog enablement deploys custom CatalogSources for operators
       available to deploy and maintain IBM products.  The operators are publically
@@ -183,7 +183,7 @@ entries:
   nodejs-ex-k:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-21T19:42:05.313373-05:00"
+    created: "2020-06-21T20:06:00.973488-05:00"
     description: A Helm chart for Kubernetes
     digest: e8b7241a60dc005a866b99e969951795228d00ad3a808a1f9aebeb4af33c0ab2
     name: nodejs-ex-k
@@ -193,7 +193,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-21T19:42:05.312932-05:00"
+    created: "2020-06-21T20:06:00.972449-05:00"
     description: A Helm chart for Kubernetes
     digest: 64b36fee719567e2aae8cb6186ba02a56dc62a90df71af7f90cc1d9d2cd1fb25
     name: nodejs-ex-k
@@ -201,4 +201,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/morstad/redhat-helm-charts/master/charts/nodejs-ex-k-0.1.1.tgz
     version: 0.1.1
-generated: "2020-06-21T19:42:05.273658-05:00"
+generated: "2020-06-21T20:06:00.900612-05:00"

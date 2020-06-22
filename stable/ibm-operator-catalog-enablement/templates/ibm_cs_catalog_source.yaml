@@ -1,5 +1,5 @@
 # Add Common Services operator source if APIs are not already present
-{{- if not (.Capabilities.APIVersions.Has "operator.ibm.com/v1alpha1") }}
+{{- if not (.Capabilities.APIVersions.Has "operator.ibm.com/v3") }}
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
@@ -9,7 +9,7 @@ spec:
   displayName: IBMCS Operators
   publisher: IBM
   sourceType: grpc
-  image: docker.io/opencloudio/ibm-common-service-catalog:latest
+  image: docker.io/ibmcom/ibm-common-service-catalog:latest
   updateStrategy:
     registryPoll:
       interval: 45m
